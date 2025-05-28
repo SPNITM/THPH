@@ -58,7 +58,7 @@
 
 ## System Architecture
 
-![System Framework](images/System_Framework.png)
+![System Framework](System_Framework.png)
 
 1. **Video Capture & Preprocessing**  
    - Frame extraction at configurable FPS  
@@ -167,7 +167,7 @@ We curated a diverse video set covering:
 
 ### Filter Operations
 
-![Filter Operations](images/Filter_Comparison.png)
+![Filter Operations](Filter_Comparison.png)
 
 | Operation      | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |---------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
@@ -189,7 +189,7 @@ We curated a diverse video set covering:
 
 ### Temporal Operations
 
-![Temporal Operations](images/Temporal_Comparison.png)
+![Temporal Operations](Temporal_Comparison.png)
 
 | Operation             | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |----------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
@@ -200,7 +200,7 @@ We curated a diverse video set covering:
 
 ### Transformation Operations
 
-![Transformation Operations](images/Transformation_Comparison.png)
+![Transformation Operations](Transformation_Comparison.png)
 
 | Operation        | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |-----------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
@@ -297,7 +297,7 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
-Authors & Acknowledgements
+##Authors & Acknowledgements
 Stuti Pandey — NIT Meghalaya — Lead author
 
 Akhilendra Pratap Singh — NIT Meghalaya
@@ -306,5 +306,5 @@ Dharmender Singh Kushwaha — MNNIT Allahabad
 
 We thank the Computer Science departments of NIT Meghalaya and MNNIT Allahabad for computational resources.
 
-License
+##License
 This project is licensed under the MIT License.
