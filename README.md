@@ -58,7 +58,7 @@
 
 ## System Architecture
 
-![System Framework](System_Framework.png)
+![System Framework](System_Framework _1.drawio.png)
 
 1. **Video Capture & Preprocessing**  
    - Frame extraction at configurable FPS  
@@ -167,7 +167,7 @@ We curated a diverse video set covering:
 
 ### Filter Operations
 
-![Filter Operations](Filter_Comparison.png)
+![Filter Operations](Filter_Comparison (1).png)
 
 | Operation      | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |---------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
@@ -179,7 +179,7 @@ We curated a diverse video set covering:
 
 ### Spatial Transformations
 
-![Spatial Operations](images/Spatial_Comparison.png)
+![Spatial Operations](Filter Operations Diagram.drawio (1).png)
 
 | Operation   | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
