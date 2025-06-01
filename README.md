@@ -2,33 +2,6 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Key Contributions](#key-contributions)
-- [System Architecture](#system-architecture)
-- [Methodology](#methodology)
-  - [PCA-based Hashing (KLT)](#pca-based-hashing-klt)
-  - [DCT-based Hashing (pHash)](#dct-based-hashing-phash)
-  - [Difference Hashing (dHash)](#difference-hashing-dhash)
-  - [Temporal Hashing](#temporal-hashing)
-  - [Combining into THPH](#combining-into-thph)
-- [Experimental Setup](#experimental-setup)
-- [Datasets & Operations](#datasets--operations)
-- [Results & Analysis](#results--analysis)
-  - [Filter Operations](#filter-operations)
-  - [Spatial Transformations](#spatial-transformations)
-  - [Temporal Operations](#temporal-operations)
-  - [Transformation Operations](#transformation-operations)
-  - [Comparison with Existing Methods](#comparison-with-existing-methods)
-- [How to Reproduce](#how-to-reproduce)
-- [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
-- [Authors & Acknowledgements](#authors--acknowledgements)
-- [License](#license)
-
----
-
 ## Overview
 
 **Temporal Hybrid Perceptual Hashing (THPH)** is a novel, lightweight framework designed for robust video similarity assessment and piracy detection. By fusing spatial hashing techniques (PCA / DCT / Difference Hash) with a frame-to-frame temporal analysis, THPH achieves:
