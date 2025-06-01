@@ -58,8 +58,6 @@
 
 ## System Architecture
 
-![System Framework](System_Framework _1.drawio.png)
-
 1. **Video Capture & Preprocessing**  
    - Frame extraction at configurable FPS  
    - Grayscale conversion, resizing, noise reduction  
@@ -220,94 +218,59 @@ We curated a diverse video set covering:
 
 ---
 
-## How to Reproduce
+# THPH: Temporal Hashing for Video Processing
 
-1. **Clone the repository**  
- ```bash
- git clone https://github.com/your-org/THPH.git
- cd THPH
-Install dependencies
+## 📥 Clone the repository
 
-bash
-Copy
-Edit
+```bash
+git clone https://github.com/SPNITM/THPH.git
+cd THPH
+```
+
+## 📦 Install dependencies
+
+Make sure you are using **Python ≥ 3.7**, then run:
+
+```bash
 pip install -r requirements.txt
-Prepare your videos
+```
 
-Place raw videos in data/original/
+**Dependencies in `requirements.txt`:**
+- `opencv-python`
+- `Pillow`
+- `ImageHash`
+- `numpy`
+- `scipy`
+- `scikit-learn`
 
-Place edited videos in data/edited/
+## 🗂️ Project Structure
 
-Run the hashing pipeline
+```
+├── Dataset/                              # Contains input video files
+│   ├── original/                         # Raw video sequences
+├── Comparison.ipynb                      # Notebook for comparing techniques
+├── Figure 4–7 Original Video Frames      # Notebooks with different operations
+├── README.md                             # Project documentation
+├── THPH Final.ipynb                      # Final notebook version
+├── Video Frame.ipynb                     # Frame extraction/processing
+├── requirements.txt                      # List of dependencies
+├── run_thph.py                           # Main THPH hashing script (expected)
+├── compute_similarity.py                 # Computes similarity from hashes
+├── plot_results.py                       # Plots similarity results
+└── LICENSE                               # License file
+```
 
-bash
-Copy
-Edit
-python run_thph.py \
-  --input_dir data/original \
-  --output_hashes hashes/original.json
-python run_thph.py \
-  --input_dir data/edited \
-  --output_hashes hashes/edited.json
-Compute similarity scores
+## 👥 Authors & Acknowledgements
 
-bash
-Copy
-Edit
-python compute_similarity.py \
-  --orig hashes/original.json \
-  --edit hashes/edited.json \
-  --out results/similarity.csv
-Visualize results
+- **Stuti Pandey** — NIT Meghalaya — Lead author  
+- **Akhilendra Pratap Singh** — NIT Meghalaya  
+- **Dharmender Singh Kushwaha** — MNNIT Allahabad  
 
-bash
-Copy
-Edit
-python plot_results.py --input results/similarity.csv
-Project Structure
-graphql
-Copy
-Edit
-├── data/
-│   ├── original/          # Raw video sequences
-│   └── edited/            # Edited test videos
-├── images/                # Plots & diagrams
-├── src/
-│   ├── run_thph.py        # Main THPH hashing script
-│   ├── compute_similarity.py
-│   ├── plot_results.py
-│   └── utils/             # Helper modules
-├── results/
-├── requirements.txt
-├── README.md
-└── LICENSE
-Dependencies
-Python ≥ 3.7
+_Thanks to the Computer Science departments of **NIT Meghalaya** and **MNNIT Allahabad** for their support._
 
-OpenCV
+## 📄 License
 
-NumPy
-
-SciPy
-
-scikit-learn
-
-matplotlib
-
-Install with:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-##Authors & Acknowledgements
-Stuti Pandey — NIT Meghalaya — Lead author
-
-Akhilendra Pratap Singh — NIT Meghalaya
-
-Dharmender Singh Kushwaha — MNNIT Allahabad
-
-We thank the Computer Science departments of NIT Meghalaya and MNNIT Allahabad for computational resources.
+This project is licensed under the **MIT License**.
 
 ##License
 This project is licensed under the MIT License.
