@@ -116,7 +116,7 @@ We curated a diverse video set covering:
 ![Filter Operations](Figure%204%20Original%20Video%20Frame%20with%20Filter%20Operations.png)
 
 
-| Operation      | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
+| Video Operation      | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |---------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
 | **Blurred**        | 0.9989  | 0.9973  | 0.9805  | 0.9984  | 0.9712  | **0.9991** |
 | **Sharpened**      | 0.9977  | 0.9962  | 0.9797  | 0.9975  | 0.9563  | **0.9985** |
@@ -129,7 +129,7 @@ We curated a diverse video set covering:
 ![Spatial Operations](Figure%207%20Original%20Video%20Frame%20with%20Spatial%20Operations.png)
 
 
-| Operation   | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
+| Video Operation   | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
 | **Translated**  | 0.8927  | 0.9330  | 0.8644  | 0.9211  | 0.8838  | **0.9342** |
 | **Zoomed**      | 0.8910  | 0.9241  | 0.8683  | 0.8980  | 0.8913  | **0.9293** |
@@ -140,7 +140,7 @@ We curated a diverse video set covering:
 ![Temporal Operations](Figure%206%20Original%20Video%20Frame%20with%20Temporal%20Operations.png)
 
 
-| Operation             | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
+| Video Operation             | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |----------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
 | **Slowed Down**         | 0.9988  | 0.9972  | 0.9891  | 0.9984  | 0.9838  | **0.9991** |
 | **Frame-Rate Converted**| 0.9988  | 0.9972  | 0.9891  | 0.9984  | 0.9838  | **0.9991** |
