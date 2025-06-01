@@ -60,10 +60,6 @@
 4. **Output**:  
 H_PCA(F_t) = bin(Pᵀ · x)
 
-markdown
-Copy
-Edit
-
 ### DCT-based Hashing (pHash)
 
 1. Apply 2D DCT to the preprocessed frame  
@@ -73,10 +69,6 @@ Edit
 5. **Output**:  
 H_DCT(F_t) = bin(D[1:n,1:n] > μ)
 
-markdown
-Copy
-Edit
-
 ### Difference Hashing (dHash)
 
 1. Resize to (n+1)×n, convert to grayscale  
@@ -84,27 +76,17 @@ Edit
 3. Binarize:  
 H_dHash(F_t) = bin(Δ > 0)
 
-shell
-Copy
-Edit
-
 ### Temporal Hashing
 
 Compute bitwise XOR of consecutive dHash outputs:  
 H_temporal(F_t) = H_dHash(F_t) ⊕ H_dHash(F_{t-1})
 
-sql
-Copy
-Edit
 
 ### Combining into THPH
 
 Final per-frame hash:  
 H_THPH(F_t) = [ H_DCT(F_t) | H_temporal(F_t) ]
 
-yaml
-Copy
-Edit
 Converted to hexadecimal for compact storage.
 
 ---
@@ -117,9 +99,7 @@ Converted to hexadecimal for compact storage.
 - **Similarity Metric**:  
 s_t = 1 – (HammingDistance / HashLength)
 
-ruby
-Copy
-Edit
+
 
 ---
 
