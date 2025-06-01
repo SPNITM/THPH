@@ -100,19 +100,14 @@ Converted to hexadecimal for compact storage.
 s_t = 1 – (HammingDistance / HashLength)
 
 
-
----
-
 ## Datasets & Operations
 
 We curated a diverse video set covering:
 
-- **Filter Edits**: Blur, Sharpen, Smooth, Edge-detect, Color Filter  
-- **Spatial Transforms**: Crop, Resize, Translate, Flip, Zoom, Affine, Perspective  
-- **Temporal Edits**: Frame-drop, Frame-rate change, Speed change, Loop  
-- **Others**: Compression, Rotation  
-
----
+- **Filter Edits**: Blur, Sharpen, Smooth, Edge-Detect, Color Filter  
+- **Transformation Edits**: Compression, Rotation, Resize, Crop, Flip, Perspective Transform
+- **Temporal Edits**: Speed Change, Frame-Rate Conversion, Frame-Drop, Loop  
+- **Spatial Edits**: Translation, Zoom, Affine-Transform
 
 ## Results & Analysis
 
