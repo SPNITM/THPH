@@ -151,10 +151,18 @@ We curated a diverse video set covering:
 
 ![Transformation Operations](Figure%205%20Original%20Video%20Frame%20with%20Transformation%20Operations.png)
 
-| Operation        | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
-|-----------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
-| **Rotated**      | 0.8815  | 0.8876  | 0.8927  | 0.8918  | 0.8826  | **0.9539** |
-| **Perspective**  | 0.8901  | 0.9078  | 0.9114  | 0.9068  | 0.8805  | **0.9477** |
+### Transformation Operations
+
+| Video Operation         | pHash   | wHash   | aHash     | dHash   | KL Hash | THPH      |
+|-------------------------|:-------:|:-------:|:---------:|:-------:|:-------:|:---------:|
+| **Compressed**              | 0.9985  | 0.9966  | **0.9988** | 0.9980  | 0.9779  | 0.9930    |
+| **Rotated**                 | 0.8815  | 0.8876  | 0.8927    | 0.8918  | 0.8826  | **0.9539** |
+| **Resized**                 | 0.9986  | 0.9968  | **0.9989** | 0.9983  | 0.9766  | 0.9867    |
+| **Cropped**                 | 0.8853  | 0.8991  | 0.9034    | 0.8841  | 0.8886  | **0.9281** |
+| **Flipped Horizontal**      | 0.8792  | 0.8979  | 0.9051    | 0.8947  | 0.9838  | **0.9844** |
+| **Flipped Vertical**        | 0.8793  | 0.9097  | 0.9124    | **0.9160** | 0.8657  | 0.9000    |
+| **Perspective Transformed** | 0.8901  | 0.9078  | 0.9114    | 0.9068  | 0.8805  | **0.9477** |
+
 
 ### Comparison with Existing Methods
 
