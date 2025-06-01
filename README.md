@@ -167,7 +167,8 @@ We curated a diverse video set covering:
 
 ### Filter Operations
 
-![Filter Operations](Filter_Comparison (1).png)
+![Filter Operations](Figure%204%20Original%20Video%20Frame%20with%20Filter%20Operations.png)
+
 
 | Operation      | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |---------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
@@ -179,7 +180,8 @@ We curated a diverse video set covering:
 
 ### Spatial Transformations
 
-![Spatial Operations](Filter Operations Diagram.drawio (1).png)
+![Spatial Operations](Figure%207%20Original%20Video%20Frame%20with%20Spatial%20Operations.png)
+
 
 | Operation   | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
@@ -189,7 +191,8 @@ We curated a diverse video set covering:
 
 ### Temporal Operations
 
-![Temporal Operations](Temporal_Comparison.png)
+![Temporal Operations](Figure%206%20Original%20Video%20Frame%20with%20Temporal%20Operations.png)
+
 
 | Operation             | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |----------------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
@@ -200,7 +203,7 @@ We curated a diverse video set covering:
 
 ### Transformation Operations
 
-![Transformation Operations](Transformation_Comparison.png)
+![Transformation Operations](Figure%205%20Original%20Video%20Frame%20with%20Transformation%20Operations.png)
 
 | Operation        | pHash   | wHash   | aHash   | dHash   | KL Hash | **THPH** |
 |-----------------:|:-------:|:-------:|:-------:|:-------:|:-------:|:--------:|
